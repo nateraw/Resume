@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Try this -->
+    <!-- http://astronautweb.co/snippet/font-awesome/ -->
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+    
+    <style>
+        ul, ol {
+           font-size: 16px !important;
+        }
+
+        ul li {
+            max-width:875px;
+            word-wrap:break-word;
+        }
+
+
+        /*#*/
+        h1 {
+            text-align: center;
+        }
+
+        /*##*/
+        h2 {
+
+        }
+
+        /*###*/
+        h3 {
+
+        }
+
+        /*####*/
+        h4 {
+
+        }
+
+        /*#####*/
+        h5 {
+
+        }
+
+        /*######*/
+        h6 {
+
+        }
+
+        /*bolded text*/
+        strong{
+
+        }
+        /*Italic*/
+        em{
+
+        }
+        /*Strikethrough*/
+        del{
+
+        }
+
+        /*Numbered Lists*/
+        ol{
+          list-style: none;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          overflow: hidden;
+          display: table;
+          justify-content: space-between;
+          /*align-items: baseline;*/
+          width:100%;
+        }
+         /*Three ordered list items centered*/
+        ol li{
+          display: table-cell;
+          width: 33.3333%;
+        }       
+        ol li:nth-child(1) {
+          float: left;
+          text-align:left;
+        }
+        ol li:nth-child(2){
+          text-align:center;
+          float: left;
+        }
+        ol li:nth-child(3){
+          float: right;
+          text-align:right;
+        }
+
+
+        table {
+          width: 100%;
+          text-align: center;
+          float:left;
+
+        }
+
+        td:nth-child(1) {
+            text-align: left;
+        }
+        td:nth-child(2) {
+            text-align: center;
+        }
+        td:nth-child(3) {
+            text-align: center;
+        }
+        td:nth-child(4) {
+            text-align: center;
+        }
+        td:nth-child(5) {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+{{content|safe}}
+</div>
+</body>
+</html>

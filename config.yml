@@ -1,0 +1,5 @@
+md_template: templates/resume.md
+# Assumed to be in templates directory as Flask reads from there
+html_template: resume_template.html
+# Saved pdf of CV goes here
+pdf_out: renderings/Nathan_Raw_Resume.pdf
