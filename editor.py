@@ -9,7 +9,7 @@ import pdfkit
 app = Flask(__name__)
 
 @app.route('/')
-def main(args=None):
+def main():
     config = yaml.safe_load(open("config.yml"))
     
     # Read in Markdown Content
