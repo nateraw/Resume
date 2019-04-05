@@ -1,12 +1,10 @@
 #!/home/dlmachine/.conda/envs/resume_env/bin/python
-from flask import Flask, flash, redirect, render_template, request, session, abort, url_for
-import argparse
+from flask import Flask
 import jinja2
 import markdown
 import yaml
 import os
 import pdfkit
-from datetime import datetime
 
 app = Flask(__name__)
 
