@@ -1,7 +1,7 @@
 # Nathan Raw
 1. naterawdata@gmail.com
-2. github.com/nateraw
-3. (585)727-5298
+2. 
+3. github.com/nateraw
 
 <hr>
 
